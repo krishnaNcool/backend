@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [
+    "express",
+    "api"
+  ],
   "author": "krishna",
   "license": "ISC",
   "dependencies": {
