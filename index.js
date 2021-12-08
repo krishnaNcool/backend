@@ -1,7 +1,7 @@
 const express = require('express')
 const format = require('date-format')
 const app = express()
-const port = 3000 || process.env.port
+const port = process.env.port || 300
 
 app.get("/", (req, res)=>{
     res.send("hello")
